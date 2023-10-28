@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+    <script src="./src/js/scripts.js"></script>
+    <title>One Piece</title>
+  </head>
+  <body>
+    <main class="personagens">
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/imagens/personagem-tony-chopper.png"
+          alt="Personagem Tony Chopper"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem"><i> Tony Chopper</i></h2>
+          <p class="descricao">
+            Esta pequena rena ganhou a habilidade de mudar sua forma e de pensar
+            como humanos após comer a fruta Hito Hito no Mi. Chopper é um
+            valioso membro da tripulação dos Piratas do Chapéu de Palha, atuando
+            como <mark> médico da tripulação.</mark>
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/imagens/personagem-roronoa-zoro.png"
+          alt="Personagem Roronoa Zoro"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem">
+            <i> <del>Roronoa Zoro</del></i>
+          </h2>
+          <p class="descricao">
+            Primeiro pirata (segundo membro se contarmos com Luffy) a se juntar
+            à tripulação de Piratas do Chapéu de Palha, Zoro aceitou o convite
+            de Luffy após o capitão salvar sua vida seu desejo é se tornara
+            <mark> o melhor espadachim do mundo.</mark>
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem selecionado">
+        <img
+          class="imagem"
+          src="./src/imagens/personagem-monkey-d-luffy.png"
+          alt="Personagem Monkey D. Luffy"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem"><i> Monkey D. Luffy</i></h2>
+          <p class="descricao">
+            Luffy do Chapéu de Palha", como ficou conhecido, é o protagonista do
+            anime, e o fundador e capitão da tripulação Piratas do Chapéu de
+            Palha. Desde muito jovem, tem como seu maior sonho um dia encontrar
+            o lendário tesouro de Gol D. Roger, para se tornar o novo
+            <mark> Rei dos Piratas.</mark>
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/imagens/personagem-nami.png"
+          alt="Personagem Nami"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem"><i>Nami</i></h2>
+          <p class="descricao">
+            Uma órfã de guerra, ainda criança Nami foi adotada por Bell-mère,
+            uma mulher da Marinha. Enquanto crescia ao lado de sua irmã adotiva
+            Nojiko, Nami já demonstrava
+            <mark>sua paixão por desenhar mapas,</mark>sonhando em um dia fazer
+            o mapa de todo o mundo.
+          </p>
+        </div>
+      </div>
+
+      <div class="personagem">
+        <img
+          class="imagem"
+          src="./src/imagens/personagem-sanji.png"
+          alt="Personagem Sanji"
+        />
+        <div class="conteudo">
+          <i class="logo"></i>
+          <h2 class="nome-personagem"><i>Sanji</i></h2>
+          <p class="descricao">
+            Também conhecido como <mark>"Perna Negra"</mark>Sanji, este pirata
+            foi o quinto a integrar a tripulação de Luffy. Suas ações como
+            pirata lhe renderam a terceira maior recompensa entre os membros do
+            Chapéu de Palha, além de atuar como
+            <mark> cozinheiro oficial do grupo.</mark>
+          </p>
+        </div>
+      </div>
+    </main>
+    <ul class="botoes">
+      <li>
+        <button class="botao" onclick="trocarPersonagem(0)">
+          <img
+            src="./src/imagens/tripulacao-chopper.png"
+            alt="Tripulação Chopper"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao" onclick="trocarPersonagem(1)">
+          <img
+            src="./src/imagens/tripulacao-zoro.png"
+            alt="Tripulação Roronoa Zoro"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao selecionado" onclick="trocarPersonagem(2)">
+          <img
+            src="./src/imagens/tripulacao-luffy.png"
+            alt="Tripulação Monkey D. Luffy"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao" onclick="trocarPersonagem(3)">
+          <img src="./src/imagens/tripulacao-nami.png" alt="Tripulação Nami" />
+        </button>
+      </li>
+      <li>
+        <button class="botao" onclick="trocarPersonagem(4)">
+          <img
+            src="./src/imagens/tripulacao-sanji.png"
+            alt="Tripulação Sanji"
+          />
+        </button>
+      </li>
+    </ul>
+  </body>
+</html>
